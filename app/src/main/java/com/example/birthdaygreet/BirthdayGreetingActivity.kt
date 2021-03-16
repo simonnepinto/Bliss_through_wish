@@ -1,7 +1,9 @@
 package com.example.birthdaygreet
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import kotlinx.android.synthetic.main.activity_birthday_greeting.*
 
 class BirthdayGreetingActivity : AppCompatActivity() {
@@ -18,5 +20,13 @@ class BirthdayGreetingActivity : AppCompatActivity() {
         val name = intent.getStringExtra(NAME_EXTRA) // to prevent confusion with the val - name
 
         birthdayGreeting.text = "Happy birthday\n $name!" //display the text
+    }
+
+    fun shareCard(view: View) {
+        val intent = Intent(Intent.ACTION_SEND)
+        intent.type = "text/plain"  //indicate we are sharing plain text
+        intent.putExtra(Intent.EXTRA_TEXT, "Happy Birthday")
+        val chooser = Intent.createChooser(intent, "Share this card using...")  //choose what app to share with
+        startActivity(chooser)
     }
 }

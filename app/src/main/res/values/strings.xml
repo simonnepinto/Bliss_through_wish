@@ -4,4 +4,5 @@
     <string name="create_birthday_card">Create Birthday Card</string>
     <string name="input_hint_text">Simonne</string>
     <string name="button">Button was clicked</string>
+    <string name="share_with_your_friend">Share with your friend</string>
 </resources>

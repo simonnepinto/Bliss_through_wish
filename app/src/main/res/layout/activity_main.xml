@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mainpic"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="@string/enter_your_name"
+        android:textStyle="bold"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +29,7 @@
         android:hint="@string/input_hint_text"
         android:textAlignment="center"
         android:gravity="center_horizontal"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helperMessage" />
@@ -41,6 +45,8 @@
         android:textAllCaps="false"
         android:padding="30dp"
         android:onClick="createBirthdayCard"
+        android:background="@color/grey"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/nameInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
