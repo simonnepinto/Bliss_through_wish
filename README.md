@@ -18,3 +18,11 @@ git clone https://github.com/simonnepinto/Bliss_through_wish.git
 
 
 This Command  will copy a full  project  to your local  environment
+
+## Getting Started
+
+1.  Pull down the code locally.
+2.  Open Android Studio and select 'Open an existing Android Studio Project'
+3.  Navigate to checked out repository.
+4.  Inside 'Bliss_through_wish' folder select 'settings.gradle' file
+5.  Run the application.
