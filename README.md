@@ -1,8 +1,7 @@
 # Bliss_through_wish
 
 
-> ThisMyPC provides a neat web interface that can be used for browsing your desktop drives from any device in your browser itself. With the help of NodeJs, 
-the file details are displayed in JSON format that can then be easily displayed in web browsers.
+> Bliss Through Wish is a basic Android application implemented in Kotlin that lets the user generate birthday cards 
 
 
 ## App Screenshots
