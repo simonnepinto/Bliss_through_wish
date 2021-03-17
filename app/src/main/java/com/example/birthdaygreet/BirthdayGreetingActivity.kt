@@ -23,9 +23,10 @@ class BirthdayGreetingActivity : AppCompatActivity() {
     }
 
     fun shareCard(view: View) {
+        val name = intent.getStringExtra(NAME_EXTRA)
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"  //indicate we are sharing plain text
-        intent.putExtra(Intent.EXTRA_TEXT, "Happy Birthday")
+        intent.putExtra(Intent.EXTRA_TEXT, "Happy Birthday $name")
         val chooser = Intent.createChooser(intent, "Share this card using...")  //choose what app to share with
         startActivity(chooser)
     }
