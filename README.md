@@ -1,7 +1,7 @@
 <h1 align="center">Bliss Through Wish</h1>
 
 <p align="center">
-<img src="https://img.shields.io/appveyor/build/simonnepinto/bliss_through_wish">
+<img src="https://travis-ci.org/fossasia/badge-magic-android.svg?branch=development">
 </p>
 
 > Bliss Through Wish is a basic Android application implemented in Kotlin that lets the user generate birthday cards 
