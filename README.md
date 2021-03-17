@@ -17,7 +17,7 @@ git clone https://github.com/simonnepinto/Bliss_through_wish.git
 ```
 
 
-This Command  will copy a full  project  to your local  environment
+This command  will copy the entrie project to your local  environment
 
 ## Getting Started
 
