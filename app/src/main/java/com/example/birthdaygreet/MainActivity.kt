@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val name = nameInput.editableText.toString() //retrieve the name that user has given
 
         if(name == ""){
-            Toast.makeText(this, "Please enter your name", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Please enter a name", Toast.LENGTH_LONG).show()
         }
         else{
             val intent = Intent(this, BirthdayGreetingActivity::class.java) //make an intent
