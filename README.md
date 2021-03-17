@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="https://travis-ci.org/fossasia/badge-magic-android.svg?branch=development">
-<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg">
+<img src="https://img.shields.io/badge/Made%20with-Kotlin-1f425f.svg">
 </p>
 
 > Bliss Through Wish is a basic Android application implemented in Kotlin that lets the user generate birthday cards 
