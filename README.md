@@ -13,7 +13,7 @@
 
 App Homepage         |  Birthday Wish
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/53074235/111423833-dc4d0f00-8716-11eb-829b-c06a27665467.jpg" title="App Homepage "  width="100%"> |<img src="https://user-images.githubusercontent.com/53074235/111423843-de16d280-8716-11eb-9ca9-d6558919233e.jpg" title="Birthday Wish" width="100%">
+<img src="https://user-images.githubusercontent.com/53074235/111423833-dc4d0f00-8716-11eb-829b-c06a27665467.jpg" title="App Homepage "  height="300" width="100%"> |<img src="https://user-images.githubusercontent.com/53074235/111423843-de16d280-8716-11eb-9ca9-d6558919233e.jpg" title="Birthday Wish" height="300" width="100%">
 
 #### Clone Project
 
