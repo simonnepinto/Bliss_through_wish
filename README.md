@@ -15,6 +15,11 @@ App Homepage         |  Birthday Wish
 :-------------------------:|:-------------------------:
 <img src="https://user-images.githubusercontent.com/53074235/111423833-dc4d0f00-8716-11eb-829b-c06a27665467.jpg" title="App Homepage " width="100%"> |<img src="https://user-images.githubusercontent.com/53074235/111423843-de16d280-8716-11eb-9ca9-d6558919233e.jpg" title="Birthday Wish" width="100%">
 
+## Tools required
+In order to use this application, you must have the following installed:
+* [Android Studio](https://developer.android.com/studio/index.html)
+* Android SDK version 29 (Can be installed from within Android Studio, or with homebrew `brew install android-sdk`)
+* [JDK8](https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
 
 ## Getting Started 🚀
 
