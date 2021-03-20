@@ -20,6 +20,7 @@ In order to use this application, you must have the following installed:
 * [Android Studio](https://developer.android.com/studio/index.html)
 * Android SDK version 29 (Can be installed from within Android Studio, or with homebrew `brew install android-sdk`)
 * [JDK8](https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
+* An Android device or emulator
 
 ## Getting Started 🚀
 
